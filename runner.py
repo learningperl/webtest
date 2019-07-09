@@ -1,5 +1,6 @@
 # coding:utf8
 from web.webcase import Web
+from inter.intercase import Http
 
 
 # 打开浏览器
@@ -9,3 +10,9 @@ web = Web()
 web.upload()
 
 web.close()
+
+#接口自动化
+http = Http()
+http.login()
+
+

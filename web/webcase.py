@@ -15,7 +15,7 @@ class Web:
         self.drvier.get('https://www.baidu.com/')
         self.drvier.find_element_by_xpath('//*[@id="form"]/span[1]/span').click()
         self.drvier.find_element_by_xpath('//*[@id="form"]/div/div[2]/div[2]/input').send_keys('F:/git/webtest/lib/1.png')
-        time.sleep(10)
+        time.sleep(5)
 
 
     def close(self):
